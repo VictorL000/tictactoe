@@ -1,0 +1,17 @@
+#box1 {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+#box2 {
+    background-color: chartreuse;
+    height: 100px;
+    width: 400px;
+    top: -30px;
+    position: relative;
+    opacity: 0.7;
+    z-index: -1;
+}
+#box2:hover {
+    background-color: green;
+}

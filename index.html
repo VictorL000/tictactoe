@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>tictactoe</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="x-wins-container">
+                    <div class="img-container"><img src="x.svg" alt="" draggable="false"></div>
+                    <h2>0</h2>
+                </div>
+                <div class="o-wins-container">
+                    <div class="img-container"><img src="o.svg" alt="" draggable="false"></div>
+                    <h2>0</h2>
+                </div>
+            </div>
+            <div class="board-container">
+                <div class="board"><img src="board.svg" alt=""/></div>
+                <div id="shadows">
+                    <div class="shadow"></div>
+                    <div class="shadow"></div>
+                    <div class="shadow"></div>
+                    <div class="shadow"></div>
+                    <div class="shadow"></div>
+                    <div class="shadow"></div>
+                    <div class="shadow"></div>
+                    <div class="shadow"></div>
+                    <div class="shadow"></div>
+                </div>
+                <div id="cells">
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                    <div class="cell"></div>
+                </div>
+            </div>
+            <div class="victory-container">
+                <h2>X wins!</h2>
+                <h3>Click anywhere to reset.</h2>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
