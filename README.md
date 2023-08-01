@@ -1,2 +1,2 @@
 # tictactoe
-I made the prettiest tic tac toe game I could make.
+The prettiest tic tac toe I could make.
